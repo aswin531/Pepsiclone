@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.nav{
+    /* position: fixe; */
+}
+.main .nav{    
+    margin-bottom: 90%;
+    margin:0px;
+    background-color: #0025ff;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    height: 100px;
+    font-family: PepsiOwners, Helvetica Neue, Helvetica, Arial, sans-serif;
+    z-index: 1;
+
+}
+.main .logo{
+    padding-top:0px;
+    padding-bottom: 20px;
+    float:left;
+    margin-top: 15px;
+    padding-left: 90px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.main .list{
+    padding-top: 20px;
+    display: inline-block;
+    list-style: none;
+    padding: 20px;  
+}
+.main .list1{
+    padding-left: 50px;
+    color: #fff;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.l1{
+    display: inline-block;
+    font-weight: 1000;
+}
+.btn{
+    float: right;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:  5px;
+    padding-bottom: 5px;
+    background-color: #0025ff;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 44px;
+    border-color: #fff;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #0025FF;
+}
+.h31{
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    font-weight: 1000;
+}
+h2{
+    margin-top: 0px;
+    padding-top: 55px;
+    color: #fff;
+    font-size: 100px;
+    line-height: 65px;
+    font-family: "PepsiOwners-Extended";
+    text-align: center;
+}
+h3{
+    color:#fff;
+    font-size: 80px;
+    line-height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+.btn2{
+    margin-top: 80px;
+    margin-left: 500px;
+    color:#fff;
+    background-color: #0025ff;
+    font-family: "PepsiOwners-Regular";
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 23px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:  20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.btn2:after{
+    background: #f1f1f1;
+}
+img{
+    width:100% ;
+    height: 1100px; ;
+}
+.pulse{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    color: #0025ff;
+    margin-bottom: 35px;
+    line-height: 50px; 
+}
+.social-med{
+    height: 300px;
+    width: 100%;
+}
+.social-med .social-med-app {
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+	border: 5px solid #0025FF;
+}
+.social-med .social-med-app .image-container {
+	width: calc(100%/6);
+    height: 200px;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+}
+.social-med .social-med-app .image-container .poster {
+    height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+.social-med .social-med-app .image-container .icons {
+	width: 42px;
+	height: 22px;
+	position: absolute;
+	bottom: 8px;
+	left: 8px;
+}
+.social-med .social-med-app .image-container img {
+	
+	overflow: hidden;
+}
+.social-med .social-med-app .image-container img:hover {
+	
+	opacity: 0.5;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    /* margin-top: 60px; */
+    background-color: #0025FF;
+    display: flex;
+}
+.footer .part1{
+    width:70%;
+    display: flex;
+
+}
+.footer .part1 .logo2{
+    margin-top: 80px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    width: 120px;
+    height: 120px;
+}
+.footer .part1 .li1{
+    margin-top: 100px;
+    padding-left: 65px;
+}
+.footer .part1 .li1 ul{
+    list-style: none;
+}
+.footer .part1 .li1 a{
+    cursor: pointer;
+    width:30%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.footer .part2{
+    width: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer .part2 .icons2{
+    padding: 3px;
+    padding-top: 20px;
+    width: 50px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+.footer .part2 p a{
+    text-align: right;
+    font-weight: 900px;
+    color: #fff;
+    text-decoration: none;
+}
+.last{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/background.png);
+
+}
+.extra-1{
+    width: 50%;
+    object-fit: cover;
+    padding: 0px;
+    height: 100px;
+    
+}
+.extra-1-img{
+     width: 100%; 
+    padding-left: 0px;
+    padding-top: 100px;
+    height: 500px;
+}
+
+.extra-2-img{
+    height: auto;
+    /* width: 100%; */
+    object-fit: cover;
+    
+}
+.extra-2{
+    width: 50%;
+    object-fit: cover;
+    height: 100vh;
+    padding: 100px;
+    padding-right: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bn4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+    background-color: transparent;
+    font-size: 24px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #fff;
+}
+.bn4:hover{
+    background-color: #fff;
+    color: #0025FF;
+}
+.words{
+    font-size: smaller;
+    color: #fff;
+}
+.words a{
+    color:#fff;
+    text-decoration: none;
+    text-align: center
+}
